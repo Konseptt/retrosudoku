@@ -1,4 +1,4 @@
-# 🕹️ RetroSudoku
+# RetroSudoku
 
 A lovingly handcrafted Sudoku web application with authentic 1980s/90s retro computing aesthetics. Features a lightning-fast DLX solver, human-style hint system, and flexible puzzle generation.
 
@@ -7,10 +7,10 @@ A lovingly handcrafted Sudoku web application with authentic 1980s/90s retro com
 ![React](https://img.shields.io/badge/React-18.2-61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-5.0-646CFF)
 
-## ✨ Features
+## Features
 
-### 🎮 Gameplay
-- **Flexible Grid Sizes**: 4×4, 6×6, 9×9, 12×12, and 16×16 puzzles
+### Gameplay
+- **Flexible Grid Sizes**: 4x4, 6x6, 9x9, 12x12, and 16x16 puzzles
 - **Multiple Difficulty Levels**: Easy, Medium, Hard, Expert, and Evil
 - **Pencil Marks**: Toggle candidate notes for cells
 - **Auto-Validation**: Optional highlighting of conflicts
@@ -18,7 +18,7 @@ A lovingly handcrafted Sudoku web application with authentic 1980s/90s retro com
 - **Timer**: Track your solve time with pause support
 - **Save/Load**: Persist games to IndexedDB
 
-### 🧠 Solver & Hints
+### Solver & Hints
 - **Human-Style Hints**: Explains solving techniques step-by-step
 - **Techniques Supported**:
   - Single Candidate (Naked Single)
@@ -29,21 +29,21 @@ A lovingly handcrafted Sudoku web application with authentic 1980s/90s retro com
   - Box/Line Reduction
   - X-Wing
 - **Auto-Solve**: Watch the puzzle solve with animated steps
-- **Performance**: Solves 9×9 puzzles in under 50ms using DLX algorithm
+- **Performance**: Solves 9x9 puzzles in under 50ms using DLX algorithm
 
-### 🎨 Retro Aesthetics
+### Retro Aesthetics
 - **CRT Monitor Effect**: Authentic scanlines and screen glow
 - **Pixel Fonts**: Press Start 2P, VT323, Space Mono
 - **Pastel 80s Palette**: Cyan, magenta, and peach colors
 - **Chiptune Sounds**: 8-bit audio feedback using Web Audio API
 - **Vintage Animations**: Satisfying interactions throughout
 
-### 📱 PWA Support
+### PWA Support
 - **Offline Mode**: Full functionality without internet
 - **Installable**: Add to home screen on mobile
 - **Responsive**: Works on all screen sizes
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -53,7 +53,7 @@ A lovingly handcrafted Sudoku web application with authentic 1980s/90s retro com
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/retrosudoku.git
+git clone https://github.com/Konseptt/retrosudoku.git
 cd retrosudoku
 
 # Install dependencies
@@ -85,7 +85,7 @@ npm run lint
 npm run test:watch
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### Project Structure
 
@@ -214,7 +214,7 @@ await updateStats(9, 'hard', 245);
 const settings = await getSettings();
 ```
 
-## 🎹 Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Key | Action |
 |-----|--------|
@@ -230,7 +230,7 @@ const settings = await getSettings();
 | `?` | Show help |
 | `Escape` | Close modal / Deselect |
 
-## 🎨 Theming
+## Theming
 
 The app supports multiple themes via CSS custom properties:
 
@@ -256,16 +256,16 @@ The app supports multiple themes via CSS custom properties:
 }
 ```
 
-## 📊 Performance
+## Performance
 
 | Operation | Target | Actual |
 |-----------|--------|--------|
-| 9×9 Solve | <50ms | ~12ms |
-| 9×9 Generate | <500ms | ~200ms |
+| 9x9 Solve | <50ms | ~12ms |
+| 9x9 Generate | <500ms | ~200ms |
 | Hint Calculation | <100ms | ~25ms |
 | Initial Load | <2s | ~800ms |
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -285,7 +285,7 @@ Tests cover:
 - Puzzle generator output
 - Game state mutations
 
-## 📝 API Reference
+## API Reference
 
 ### Types
 
@@ -338,7 +338,7 @@ window.addEventListener('retrosudoku:save', (e) => {
 });
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing`)
@@ -353,11 +353,11 @@ window.addEventListener('retrosudoku:save', (e) => {
 - CSS modules for scoped styles
 - Comprehensive JSDoc comments
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Donald Knuth](https://www-cs-faculty.stanford.edu/~knuth/) for the Dancing Links algorithm
 - [Google Fonts](https://fonts.google.com/) for Press Start 2P and VT323
@@ -366,7 +366,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  Made with 💾 and ☕ 
+  Made with code and coffee
   <br>
   <sub>Insert coin to continue...</sub>
 </p>
