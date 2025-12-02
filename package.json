@@ -1,7 +1,24 @@
 {
   "name": "retrosudoku",
-  "private": true,
   "version": "1.0.0",
+  "description": "A modern Sudoku web app with multiple themes, DLX solver, and human-style hints",
+  "author": "Konseptt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Konseptt/retrosudoku.git"
+  },
+  "homepage": "https://konseptt.github.io/retrosudoku/",
+  "keywords": [
+    "sudoku",
+    "puzzle",
+    "game",
+    "react",
+    "typescript",
+    "pwa",
+    "dlx",
+    "solver"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
