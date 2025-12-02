@@ -10,7 +10,7 @@ A modern Sudoku web application with multiple themes including authentic retro c
 
 ## Live Demo
 
-**[Play RetroSudoku Now](https://konseptt.github.io/retrosudoku/)**
+**[Play RetroSudoku Now](https://sudoku.ranjansharma.info.np/)**
 
 ## Features
 
@@ -116,5 +116,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  <strong><a href="https://konseptt.github.io/retrosudoku/">Play Now</a></strong>
+  <strong><a href="https://sudoku.ranjansharma.info.np/">Play Now</a></strong>
 </p>
